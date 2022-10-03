@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fundo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(90deg,#252424bd,#252424bd) ;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 500px;
+    text-shadow: black 0.1em 0.5em 0.5em
+}
+
+h1{
+    font-size: 45px;
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 0 black, 0 5px black,
+    5px 0 black, 0 5px black
+    
+}
+h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bangers', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 0 black, 0 5px black,
+    1px 0 black, 0 1px black
+    
+}
+table tr{
+    transition: all 50ms;
+}
+table tr td{
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.314);
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+    transition: all 50ms;
+}
+table tr td:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+    color: red;
+    transition: all 50ms;
+}
+
+button{
+    border-radius: 25px;
+    font-family: 'Bangers', cursive;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 20px 0 ;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.score{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.score h3{
+    margin: 0;
+    padding: 0;
+}
+.score__box{
+    display: flex;
+}
+
+.score__box .players{
+    margin: 0px 5px;
+    width: 40px;
+    font-weight: 900;
+}
+.score__box .player1{
+    color: rgb(211, 3, 3);
+}
+.score__box .player2{
+    color: rgb(2, 2, 216);
+}
+
+.score__box .players__score{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 10px;
+
+}
+.drawCount{
+    position: fixed;
+    top: 4px;
+    right: 10px;
+    color: rgb(23, 160, 26);
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.drawCount h4{
+    padding:0 5px;
+}
+
+@media (max-width:450px){
+    table tr td{
+        width: 80px;
+        height: 80px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    button{
+        padding: 5px;
+        font-size: 15px;
+    }
+}
