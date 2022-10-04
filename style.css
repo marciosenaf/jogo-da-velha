@@ -14,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(90deg,#252424bd,#252424bd) ;
+    background:linear-gradient(90deg,hsla(0, 1%, 14%, 0.533),hsla(0, 1%, 14%, 0.533)) ;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -39,6 +39,17 @@ h2,h3,h4{
     1px 0 black, 0 1px black
     
 }
+
+p{
+	font-family: 'Bangers', cursive;
+	float: left;
+	margin: 30px 0px;
+	text-align: center;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+    text-shadow: 3px 0 black, 0 5px black,
+    5px 0 black, 0 5px black}
+
 table tr{
     transition: all 50ms;
 }
@@ -60,12 +71,13 @@ table tr td:hover{
 }
 
 button{
-    border-radius: 25px;
+    border-radius: 10px;
+    width: 80px ;
+    height: 60px;
     font-family: 'Bangers', cursive;
     border: 0;
-    outline: 0;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     background-color: rgb(0, 0, 0);
     margin: 20px 0 ;
@@ -98,7 +110,7 @@ div{
 
 .score__box .players{
     margin: 0px 5px;
-    width: 40px;
+    width: 25px;
     font-weight: 900;
 }
 .score__box .player1{
