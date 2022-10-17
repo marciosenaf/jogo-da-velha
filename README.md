@@ -10,9 +10,6 @@ Este jogo é uma aplicação front-end, tem uma interface no estilo HQ e tem com
 ## Layout mobile
 ![Mobile 1](https://github.com/marciosenaf/jogo-da-velha/blob/main/images/mobile.png)
 
-## Layout tablet
-![Web 1](https://github.com/marciosenaf/jogo-da-velha/blob/main/images/tablet.png)
-
 ## Layout computador
 ![Web 2](https://github.com/marciosenaf/jogo-da-velha/blob/main/images/computador.png)
 
