@@ -29,17 +29,6 @@ Este jogo é uma aplicação front-end, tem uma interface no estilo HQ e tem com
 git clone https://github.com/marciosenaf/jogo-da-velha
 
 # executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# executar o projeto
 start index.html
 ```
 
