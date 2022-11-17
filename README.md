@@ -3,7 +3,7 @@
 
 # Sobre o Projeto
 
-Link do jogo: https://005f6dc9.jogo-da-velha-marciosena.pages.dev/
+Link do Jogo: https://005f6dc9.jogo-da-velha-marciosena.pages.dev/
 
 Este jogo é uma aplicação front-end, tem uma interface no estilo HQ e tem como principal objetivo vc jogar o jogo da velha com um bot inteligente, e a cada partida ele registra o placar de vitorias, derrotas e empates.
 
