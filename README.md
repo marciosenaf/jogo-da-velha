@@ -1,7 +1,7 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/marciosenaf/jogo-da-velha/blob/main/LICENSE) 
 
-# Sobre o projeto
+# Sobre o Projeto
 
 Link do jogo: https://005f6dc9.jogo-da-velha-marciosena.pages.dev/
 
